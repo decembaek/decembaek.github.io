@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ruby, gem (bundle install)설치 오류 해결: An error occurred while installing eventmachine (1.2.7), and Bundler cannot continue."
+title: "ruby, gem (bundle install)설치 오류 해결"
 categories: [Error]
 tag: [it, coding, error, ruby, rbenv, bundle]
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Python 파이썬으로 디스코드 메세지 에러 오류코드 : UnicodeEncodeError: 'latin-1' codec can't encode characters in position 0-1: Body ('text') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8."
+title: "Python 파이썬으로 디스코드 메세지 에러 오류코드"
 categories: [Python]
 tag: [python, discord]
 toc: true
@@ -10,7 +10,6 @@ toc: true
 
 UnicodeEncodeError: 'latin-1' codec can't encode characters in position 0-1: Body ('현재') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
 
- 
 
 또다른 오류
 

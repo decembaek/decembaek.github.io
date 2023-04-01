@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ruby 오류, 디렉토리 비우기, 삭제하기: fatal: destination path '/Users/user-name/.rbenv' already exists and is not an empty directory. "
+title: "ruby 오류, 디렉토리 비우기, 삭제하기"
 categories: [Error, Download, Delete]
 tag: [it, coding, error, ruby, rbenv]
 toc: true
