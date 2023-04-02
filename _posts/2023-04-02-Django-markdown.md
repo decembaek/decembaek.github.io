@@ -33,21 +33,17 @@ def markDown(value):
 		return mark_safe(markdown.markdown(value, extensions=extensions))
 ```
 
-
-
 mark 함수는 markdown module 과 mark_safe 함수를 사용해서 HTML 코드로 변환하여 return 한다
 
 ### markdown module
 
-1. Nl2br 은 줄바꿈 문자를  ```<br>``` 태그로 바꿔 주므로 Enter를 한 번만 눌러도 줄바꿈으로 인식한다.
-2. fenced_code 는 마크다운의 소스 코드 표현을 위해 사용된다. 
-
-
+1. Nl2br 은 줄바꿈 문자를 `<br>` 태그로 바꿔 주므로 Enter를 한 번만 눌러도 줄바꿈으로 인식한다.
+2. fenced_code 는 마크다운의 소스 코드 표현을 위해 사용된다.
 
 ### markdown 모듈 템플릿에 적용하기
 
 templates/template.html 자신 템플릿에 들어갑니다
 
-![스크린샷 2023-04-02 오후 5.11.54](/Users/baekseung-gyu/decembaek-github-blog/decembaek.github.io/images/2023-04-02-Django-markdown/스크린샷 2023-04-02 오후 5.11.54.png)
+![스크린샷 2023-04-02 오후 5.11.54]({{site.url}}/images/2023-04-02-Django-markdown/스크린샷 2023-04-02 오후 5.11.54.png)
 
 이렇게 사용하면 마크다운을 가져올 수 있습니다.
