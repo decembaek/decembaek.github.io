@@ -44,6 +44,6 @@ mark 함수는 markdown module 과 mark_safe 함수를 사용해서 HTML 코드�
 
 templates/template.html 자신 템플릿에 들어갑니다
 
-![스크린샷 2023-04-02 오후 5.11.54]({{site.url}}/images/2023-04-02-Django-markdown/스크린샷 2023-04-02 오후 5.11.54.png)
+![스크린샷 2023-04-02 오후 5.11.54]({{ site.url }}/images/2023-04-02-Django-markdown/스크린샷 2023-04-02 오후 5.11.54.png)
 
 이렇게 사용하면 마크다운을 가져올 수 있습니다.
