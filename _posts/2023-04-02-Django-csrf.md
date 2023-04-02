@@ -12,11 +12,7 @@ toc: true
 
 ## Django Form 으로 제출할 때 생기는 보안 취약점
 
-```django
-<form>
-	{% csrf_token %}  
-</form>
-```
+![csrf]({{ site.url }}/images/2023-04-02-Django-csrf/csrf.png)
 
 Csrf_token은 폼 제출시 아래에 명시해야한다
 
