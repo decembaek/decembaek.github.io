@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "4차산업과 인공지능 : AIDE 데이터 전문가 2급 자격증"
-categories: [Data, Ai]
+categories: [Data, Ai, AIDE 데이터 전문가 2급 자격증]
 tag: [python, ai, data, labeling]
 toc: true
 ---
