@@ -49,7 +49,7 @@ mark 함수는 markdown module 과 mark_safe 함수를 사용해서 HTML 코드�
 templates/template.html 자신 템플릿에 들어갑니다
 
 ```django
-{% laod fileName_filter %} #필터 파일명 적어줍니다. load로 가져옵니다
+{% load fileName_filter %} #필터 파일명 적어줍니다. load로 가져옵니다
 {{content.content|markDown}}  #출력되는 내용에 |함수이름 markDown을 입력해서 필터시킵니다
 ```
 
