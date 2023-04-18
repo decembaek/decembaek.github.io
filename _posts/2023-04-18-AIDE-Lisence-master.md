@@ -12,7 +12,7 @@ toc: true
 
 
 
-![master](/Users/baekseung-gyu/decembaek-github-blog/decembaek.github.io/images/2023-04-18-AIDE-Lisence-master/master.png)
+![master]({{site.url}}/images/2023-04-18-AIDE-Lisence-master/master.png)
 
 짠..
 
