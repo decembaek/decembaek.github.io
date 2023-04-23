@@ -36,17 +36,19 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
 
 ### 제안 전략
 
-`ZSH_AUTOSUGGEST_STRATEGY`는 제안이 어떻게 생성되어야 하는지를 지정하는 배열이다. 배열의 전략은 제안이 발견될 때까지 연속적으로 시도된다. 현재 선택할 수 있는 세 가지 기본 전략이 있다:
+`ZSH_AUTOSUGGEST_STRATEGY`는 사용자가 원하는 자동완성을 요청할 수 있다. ㅎㅎ 다음과 같이 3가지가 있다.
 
-- `history`: 역사에서 가장 최근의 경기를 선택합니다.
-- `completion`: 완료 엔진에서 제안을 찾을 수 있습니다. (zpty 모듈 필요)
-- `match_prev_cmd`: 역사 중 가장 최근 실행된 명령과 일치하는 항목 중 가장 최근 것을 선택합니다. (자세한 내용 참조) 이 전략은 HIST_IGNORE_ALL_DUPS 또는 HIST_EXPIRE_DUPS_FIRST와 같은 ZSH 옵션과 함께 사용할 경우 예상대로 작동하지 않을 수 있습니다.
+- `history`: 가장 최근에 쓰는 명령어 추천 ex) python manage.py runserver, python manage.py migrate 과 같이 같은 명령어로 시작하는 경우 최근에 쓴 명령어를 추천해준다!
+- `completion`: 완성된 명령어를 추천 받을 수 있습니다. (zpty 모듈 필요)
+- `match_prev_cmd`: history 중 가장 최근 실행된 명령과 일치하는 항목 중 가장 최근 것을 선택합니다.  이 전략은 HIST_IGNORE_ALL_DUPS 또는 HIST_EXPIRE_DUPS_FIRST와 같은 ZSH 옵션과 함께 사용할 경우 예상대로 작동하지 않을 수 있습니다.
 
-예를 들어, `ZSH_AUTOSUGGEST_STRATEGY=(history completion)`를 설정하면 먼저 기록에서 제안을 찾으려고 시도하지만, 일치하는 것을 찾을 수 없으면 완료 엔진에서 제안을 찾을 수 있습니다.
+예를 들어, `ZSH_AUTOSUGGEST_STRATEGY=(history completion)`를 설정하면 먼저 기록에서 제안을 찾으려고 시도하지만, 일치하는 것을 찾을 수 없으면 완료 엔진에서 제안을 찾을 수 있다 
 
 
 
 | 필자는 history를 추천한다 (기본값)
+
+
 
 ## autosuggestions 설치 방법 (Oh My Zsh)
 
